@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/snoopyfundo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="323dp"
+        android:layout_height="300dp"
+        android:layout_margin="50dp"
+        android:gravity="top"
+        android:text="Jogo da Velha"
+        android:textColor="#b76e79"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="Snoopy x Peanuts"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonJogadorVsJogador"
+        android:layout_width="336dp"
+        android:layout_height="70dp"
+        android:text="JogadorVsJogador"
+        android:textColor="#b76e79"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonJogadorVsMaquina"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:text="JogadorVsMaquina"
+        android:textColor="#b76e79"
+        android:textSize="20sp" />
+
+</LinearLayout>
